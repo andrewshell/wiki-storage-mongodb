@@ -1,0 +1,33 @@
+{
+  "name": "wiki-storage-mongodb",
+  "version": "0.1.0",
+  "description": "MongoDB storage for Federated Wiki",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewshell/wiki-storage-mongodb.git"
+  },
+  "keywords": [
+    "wiki",
+    "federated wiki",
+    "storage"
+  ],
+  "author": "Andrew Shell <andrew@andrewshell.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewshell/wiki-storage-s3/issues"
+  },
+  "homepage": "https://github.com/andrewshell/wiki-storage-s3#readme",
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "wiki-plugin-paragraph": "^0.3.0",
+    "wiki-server": "^0.22.0"
+  },
+  "dependencies": {
+    "mongodb": "^6.3.0",
+    "wiki-storage-file": "file:../wiki-storage-file"
+  }
+}
